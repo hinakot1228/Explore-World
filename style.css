@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    line-height: 1;
+}
+
+header {
+    background-color: rgb(6, 39, 66);
+    padding: 14px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 36px;
+}
+.header-right {
+    display: flex;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.top-wrapper {
+    height: 100vh;
+    background-image: url('https://heuristic-kilby-bf0e3e.netlify.app/assets/img/background.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-wrapper h1 {
+    font-size: 80px;
+    /* display: inline-block; */
+    text-align: center;
+}
+.guideline li {
+    list-style: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.lesson-wrapper h2 {
+    font-size: 40px;
+    color: grey;
+    text-align: center;
+    padding-top: 40px;
+}
+.lesson-wrapper-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.lesson-wrapper p {
+    width: 50%;
+
+}
+.lesson-wrapper img {
+    height: 150px;
+    margin: 0 20px;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 20px 0;
+    color: white;
+    background-color: rgb(6, 39, 66);
+    font-size: 20px;
+    text-align: center;
+}
